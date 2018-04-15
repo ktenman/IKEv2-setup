@@ -6,9 +6,7 @@
 # do-release-upgrade
 
 # == Then run this script
-# wget https://raw.githubusercontent.com/ktenman/IKEv2-setup/master/setup.sh
-# chmod u+x setup.sh
-# ./setup.sh
+# wget https://raw.githubusercontent.com/ktenman/IKEv2-setup/master/setup.sh && chmod u+x setup.sh && ./setup.sh
 
 echo
 echo "=== https://github.com/jawj/IKEv2-setup ==="
