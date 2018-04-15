@@ -264,7 +264,7 @@ adduser ${LOGINUSERNAME} sudo
 sed -r \
 -e "s/^#?Port 22$/Port ${SSHPORT}/" \
 -e 's/^#?LoginGraceTime (120|2m)$/LoginGraceTime 30/' \
--e 's/^#?PermitRootLogin yes$/PermitRootLogin yes/' \
+-e 's/^#?PermitRootLogin no$/PermitRootLogin yes/' \
 -e 's/^#?X11Forwarding yes$/X11Forwarding no/' \
 -e 's/^#?UsePAM yes$/UsePAM no/' \
 -i.original /etc/ssh/sshd_config
